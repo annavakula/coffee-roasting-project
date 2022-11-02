@@ -1,0 +1,187 @@
+html {
+	-webkit-touch-callout: none; 
+  	-webkit-user-select: none;   
+  	-khtml-user-select: none;    
+  	-moz-user-select: none;      
+  	-ms-user-select: none;       
+  	user-select: none;    
+  	cursor: default;
+  	background-color: #CEAB77;
+}
+
+body {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;      
+	padding: 0;
+	margin: 0;
+	/*background-color: goldenrod;*/
+	background: -moz-linear-gradient(45deg, #CEAB77 0%, #B08C45 100%);
+    background: -webkit-linear-gradient(45deg, #CEAB77 0%, #B08C45 100%);
+    background: linear-gradient(45deg, #CEAB77 0%, #B08C45 100%);
+}
+
+.header {
+	background-image: url(https://www.tastingtable.com/img/gallery/20-different-types-of-coffee-explained/intro-1659544996.webp);
+	height: 400px;
+	background-position: center;
+	background-size: cover;
+}
+
+.roasting {
+    margin: 60px auto;
+    padding: 20px 30px 40px 30px;
+    background-color: #FADBAB;
+    overflow: scroll;
+    width: 65%;
+    align-self: center;
+    border-radius: 30px;
+}
+
+.roasting h3{
+	text-align: center;
+}
+
+.roasting p {
+	text-align: center;
+	color: rgb(64, 64, 64);
+	font-family: 'Merriweather', serif;
+	line-height: 20px;
+	font-size: 16px;
+	font-weight: 300;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.spectrum div {
+	min-height: 200px;
+	max-height: 300px;
+	font: inherit;
+	color: bisque;
+	overflow: auto;
+	opacity: 0.9;
+	border-radius: 15px;
+	padding-left: 7px;
+}
+
+.spectrum p {
+	color:  bisque;
+	text-align: center;
+}
+
+.green {
+	background-color: rgba(124, 139, 94, 0.8);
+	margin-bottom: 10px;
+}
+
+.light {
+	background-color: rgba(115, 64, 32, 0.8);
+	margin-bottom: 10px;
+}
+
+.city {
+	background-color: rgba(105, 88, 72, 0.8);
+	margin-bottom: 10px;
+}
+
+.vienna{
+	background-color: rgba(86, 80, 72, 0.8);
+	margin-bottom: 10px;
+}
+
+.italian {
+	background-color: rgba(60, 58, 53, 0.8);
+}
+
+h1 {
+	color: rgb(174, 145, 86);
+	font-family: 'Merriweather' sans-serif;
+	font-size: 100px;
+	line-height: 100px;
+	margin: 0;
+	position: relative;
+	text-align: center;
+	top: 20%;
+	background-color: transparent;
+	-webkit-text-stroke: 1px black;
+	position: sticky;
+}
+
+h2 {
+	font-family: 'Comfortaa', sans-serif;
+	color: rgb(112, 103, 88);
+	font-size: 30px;
+	font-weight: 400;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+h3 {
+	color: #41292C;
+	font-family: 'Comfortaa';
+	font-size: 22px;
+	font-weight: 500;
+	text-align: center;
+}
+
+h4 {
+	font-family: 'Alkalami';
+	font-size: 26px;
+	font-weight: 700;
+	line-height: .2em;
+}
+
+h5 {
+	font-family: 'Alkalami';
+	font-size: 20px;
+	font-weight: 300;
+	line-height: .2em;
+}
+
+ul {
+	margin: 5;
+	padding: 5;
+	width: 80%;
+}
+
+li {
+	border-bottom: 1px solid #E4BB97;
+	list-style: none;
+	margin: 100px 0px;
+	padding-bottom: 60px;
+}
+
+p {
+	color: #444444;
+	line-height: 30px;
+	font-family: 'Raleway' sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+	text-align: justify;
+}
+
+a {
+	color: rgb(70, 58, 38);
+	font-family: 'Comfortaa';
+	font-size: 15px;
+	font-weight: 500;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition-property: font-size;
+	transition-duration: 250ms;
+	cursor: pointer;
+}
+
+a:hover {
+	color: #AB7B1B;
+	font-size: 20px;
+
+}
+
+@media only (min-width: 736px) {
+	h1 {
+		font-size: 50px;
+	}
+}
+
